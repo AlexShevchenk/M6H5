@@ -1,6 +1,6 @@
 # Hybrid Flow(Steps)
 1.A user tries to access the application (the client).
-2.The client redirects the user to the authorize endpoint.
+/n 2.The client redirects the user to the authorize endpoint.
 3.Cloudentity authenticates the user and displays a consent screen if there is an authorization scope to be granted.
 4.The user gives their consent.
 5.Cloudentity issues an authorization code and one or more additional parameters depending on the value for the response_type parameter provided in the second step.
